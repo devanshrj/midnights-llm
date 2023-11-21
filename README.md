@@ -6,8 +6,9 @@ The current deployment is primarily based on the [vLLM](https://github.com/vllm-
 
 Since Midnights' has an older CUDA version, I would recommend using the `requirements.txt` file to install all dependencies (with CUDA compatbility). Specifically,
 ```
-<create new conda environment>
-pip install -r requirements.txt
+echo "export CONDA_HOME=<path_to_conda_installation>" >> ~/.bashrc
+source ~/.bashrc
+bash setup.sh
 ```
 
 ### To Do

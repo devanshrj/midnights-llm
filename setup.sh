@@ -7,7 +7,7 @@ then
     exit 1
 fi
 
-# source ${CONDA_HOME}/etc/profile.d/conda.sh
-# conda create -y -n ${ENV_NAME} python=3.8
-# conda activate ${ENV_NAME}
-# pip install -r requirements.txt
+source ${CONDA_HOME}/etc/profile.d/conda.sh
+conda create -y -n ${ENV_NAME} python=3.8
+conda activate ${ENV_NAME}
+pip install -r requirements.txt
